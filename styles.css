@@ -57,18 +57,48 @@ margin: auto;
 
 }
 
+/* featured section */
+/* largest container */
 #featured {
   min-height: 750px;
+ position:relative;
 }
 
-#shape {
-  position:absolute;
-  width:800px;
-  z-index:-1;
-  top: 560px;
-}
+/* second largest container, or text container includes h3, img, all p */
+#blobdiv {
+    max-width: 700px;
+  }
 
-/* check shape compatibility with other screens */
+  #shape {
+    position:absolute;
+    width:800px;
+    z-index:-1;
+    top: 40px;
+  }
+
+  /* i can use absolute position to position the shape relative 
+  to the container... */
+
+  /* check shape compatibility with other screens */
+
+/* video container */
+  #video-container {
+    border: solid;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    border-radius:49%;
+    background-color:black;
+    width:370px;
+    height:250px;
+    position: absolute;
+    top:440px;
+    left:30px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+  }
+
+
 
 h1{
   color:#f7d1ff;
@@ -76,7 +106,7 @@ h1{
   font-size: 2em;
 }
 
-p {
+p, pre {
   color:#f7d1ff;  
   font-family: 'EB Garamond', serif;
 }
@@ -84,8 +114,7 @@ p {
 #p1 {
   max-width: 500px;
   text-align:center;
-  padding-left:60px;
-  padding-top:0;
+  padding-left:60px; 
 }
 
 #p2 {
@@ -96,7 +125,13 @@ p {
 #p3 {
   max-width: 170px;
   text-align:center;
-  padding-left: 500px;
+  padding-left: 460px;
+}
+
+#p4 {
+  max-width:100px;
+  text-align:center;
+  padding-left: 510px;
 }
 
 h3 {
@@ -106,30 +141,17 @@ font-family: 'Sacramento', cursive;
   font-size:1.7em;
 }
 
-#blobdiv {
-  border:solid;
-  max-width: 700px;
-}
-
 #time-turner {
   color:#eece03;
   font-family: 'EB Garamond', serif;
+  text-align:center;
+  padding-right:140px;
+  margin-bottom:0;
 }
 
-#video-container {
-  border: solid;
-  display: flex;
-  padding: 10px 10px 10px 10px;
-  border-radius:49%;
-  background-color:black;
-  width:370px;
-  height:250px;
-  position: absolute;
-  top:950px;
-  display:flex;
   align-items: center;
-  justify-content:center;
-}
+
+/* end of featured */
 
 #shop-div {
   border:solid;
