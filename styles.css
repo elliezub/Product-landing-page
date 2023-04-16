@@ -6,6 +6,8 @@ scroll-behavior:smooth;
   }
 }
 
+
+
 /* consider font changes */
 
 #nav-bar {
@@ -198,7 +200,7 @@ position:absolute;
 font-family: 'Sacramento', cursive;
 font-size:20px;
 color:#f7d1ff;
-transition:600ms;
+transition:500ms;
 }
 
 button::before, button::after {
@@ -211,7 +213,7 @@ button::before, button::after {
 /* middle */
 button::before {
   border: 4px solid #8052eb;
-  transition: 600ms;
+  transition: 400ms;
   z-index: -1;
 }
 /* outside */
@@ -247,17 +249,58 @@ button:focus {
 }
 
 /* shop section end */
+#form-container {
+}
+
+
+.custom-shape-divider-bottom-1681662015 {
+    position:absolute;
+    bottom: 210px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  z-index:-3;
+}
+
+.custom-shape-divider-bottom-1681662015 svg {
+    position:relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 147px;
+}
+
+.custom-shape-divider-bottom-1681662015 .shape-fill {
+    fill: #000000;
+}
 
 #disclaimer {
   font-size:0.7em;
+  text-align: center;
+  min-width:700px;
+  padding: 0 20px 10px 20px;
+}
+
+#page-bot {
+  background:black;
+  position:absolute;
+  left:0;
+  margin-top: 150px;
+  min-width:800px;
+}
+
+#submitspan {
+font-size:20px;
+color:#f7d1ff;
+ z-index: 1;
 }
 
 #icon-container {
   display:flex;
+  align-items:center;
   justify-content:space-between;
-  border:solid;
   padding:10px; 
 }
+
 
 i {
   padding:3px;
