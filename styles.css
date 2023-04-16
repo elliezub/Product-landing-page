@@ -195,7 +195,6 @@ border-radius: 40px;
 
 button span {
 position:absolute;
-transform: tranlateX(-50%) translateY(-50%);
 font-family: 'Sacramento', cursive;
 font-size:20px;
 color:#f7d1ff;
