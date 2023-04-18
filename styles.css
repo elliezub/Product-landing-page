@@ -244,13 +244,13 @@ button:hover span{
 }
 
 button:hover::before{
-  width:119px;
+  width:121px;
   height:53px;
   z-index:1;
 }
 
 button:hover::after{
-  width: 127px;
+  width: 126px;
   height:60px;
   z-index:1;
 }
