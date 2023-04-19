@@ -609,7 +609,7 @@ margin: 10px 0 25px 0;
 }
 
 #page-bot {
-  margin-top: auto;
+  margin-top: 0;
   min-width: auto;
 }
 
