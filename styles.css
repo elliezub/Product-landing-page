@@ -192,11 +192,10 @@ margin: 0 0 15px 0;
 }
 
 #arrow {
-  width:80px;
+  width:185px;
   position: absolute;
-  top:740px;
-  left: 145px;
-  rotate: -20deg;
+  top:710px;
+  left: 95px;
 }
 
 #watchme {
