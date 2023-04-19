@@ -368,6 +368,7 @@ button:focus{
     display: block;
     width: calc(149% + 1.3px);
     height: 147px;
+    fill: #070310;
 }
 
 .custom-shape-divider-bottom-1681662015 .shape-fill {
