@@ -416,6 +416,7 @@ form {
   display:flex;
   justify-content:center;
   padding: 20px 0 20px 0;
+  margin-bottom: 0;
 }
 
 #email {
