@@ -572,6 +572,7 @@ margin: 10px 0 25px 0;
   display: flex;
   flex-wrap: wrap;
   position:static;
+  margin-bottom: 10px;
 }
 
 .shop-item {
@@ -595,17 +596,7 @@ margin: 10px 0 25px 0;
 
 /* ---- */
 
-.custom-shape-divider-bottom-1681662015 {
-  position:static;
-  margin:0;
-  padding:0;
-}
 
-.custom-shape-divider-bottom-1681662015 svg {
-  position:static;
-  margin:0;
-  padding:0;
-}
 
 #disclaimer {
   font-size:0.2em;
