@@ -368,7 +368,6 @@ button:focus{
     display: block;
     width: calc(149% + 1.3px);
     height: 147px;
-    fill: #070310;
 }
 
 .custom-shape-divider-bottom-1681662015 .shape-fill {
@@ -598,7 +597,9 @@ margin: 10px 0 25px 0;
 
 /* ---- */
 
-
+.custom-shape-divider-bottom-1681662015 svg {
+ vertical-align: bottom;
+}
 
 #disclaimer {
   font-size:0.2em;
