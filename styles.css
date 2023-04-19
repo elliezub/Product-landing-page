@@ -615,7 +615,7 @@ margin: 10px 0 25px 0;
 
 #submitspan {
   font-size:.7em;
-  margin: auto;
+  margin: 0 auto 0 auto;
   text-align: center;
   width:auto;
 }
