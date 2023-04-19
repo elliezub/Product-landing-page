@@ -148,9 +148,18 @@ margin-top:0;
 #featureh1 {
   margin: auto;
   position:absolute;
-  top: 140px;
+  top: 130px;
   left: 190px;
 }
+
+#time-turner {
+  color:#eece03;
+  font-family: 'Gabriela', serif;
+  position: absolute;
+  top: 145px;
+  right: 150px;
+}
+
 
 /* second largest container, or text container includes h3, img, all p */
 
@@ -180,21 +189,13 @@ p, pre {
   font-family: 'Gabriela', serif;
 }
 
-#featured p {
-  
-}
+
 
 h3 {
 /* FONT CHANGE??   */
 font-family: 'Sacramento', cursive;
  color:#f7d1ff;
   font-size:1.7em;
-}
-
-#time-turner {
-  color:#eece03;
-  font-family: 'Gabriela', serif;
-  position: absolute;
 }
 
 
