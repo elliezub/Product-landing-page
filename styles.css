@@ -511,6 +511,7 @@ i {
  text-align: center;
  margin: 0 auto 0 auto;
  padding-top: 10px;
+ font-size: 43.2px;
 }
 
 #time-turner {
@@ -641,7 +642,7 @@ margin: 10px;
 
 #icon-container {
   display:flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
