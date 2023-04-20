@@ -56,7 +56,7 @@ body{
   .nav-link span {
   position:absolute;
   font-family: 'Sacramento', cursive;
-  font-size:1.5em;
+  font-size:1.3em;
   font-weight:bold;
   color:#18182e;
   transition:500ms;
@@ -84,7 +84,7 @@ body{
   
   .nav-link:hover span{
     letter-spacing: 1.8px;
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   
   .nav-link:hover::before{
@@ -144,9 +144,9 @@ margin-top:0;
 #featureh1 {
   margin: auto;
   position:absolute;
-  top: 140px;
-  left: 167px;
-  font-size: 3.8em;
+  top: 142px;
+  left: 170px;
+  font-size: 3.4em;
 }
 
 #time-turner {
@@ -228,6 +228,7 @@ h1{
 p, pre {
   color:#f7d1ff;  
   font-family: 'Gabriela', serif;
+  font-size: 1em;
 }
 
 
