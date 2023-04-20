@@ -139,11 +139,11 @@ margin-top:0;
  position:relative;
  margin: auto;
  max-width: 900px;
- font-size: 1em;
 }
 
 #featured p {
-  font-size: 1em;
+ font-size: 1em;
+ display: block;
 }
 
 #featureh1 {
@@ -168,6 +168,7 @@ margin-top:0;
   top: 222px;
   left: 470px;
   text-align: center;
+  display: block;
 }
 
 #p-container2 {
