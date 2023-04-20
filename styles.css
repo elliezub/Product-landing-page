@@ -139,6 +139,11 @@ margin-top:0;
  position:relative;
  margin: auto;
  max-width: 900px;
+ font-size: 1em;
+}
+
+#featured p {
+  font-size: 1em;
 }
 
 #featureh1 {
