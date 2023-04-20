@@ -177,6 +177,7 @@ margin-top:0;
   top:345px;
   left: 145px;
   width: 620px;
+  display: block;
 }
 
 #p-container hr {
@@ -203,9 +204,9 @@ margin: 0 0 15px 0;
 
 #watchme {
   position:absolute;
-  bottom: 0;
-  left: 70px;
-  font-size: 2em;
+  bottom: 5px;
+  left: 77px;
+  font-size: 1.8em;
 }
 /* add a time turner png off on the side if possible */
 
